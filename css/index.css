@@ -8,6 +8,16 @@
     src: url(Quicksand-Light.ttf)
 }
 
+@font-face {
+    font-family: page-title-font;
+    src: url(Lato-Light.ttf)
+}
+
+@font-face {
+    font-family: page-sub-title-font;
+    src: url(Lato-ThinItalic.ttf)
+}
+
 
 .home-title {
     font-family: title-font;
@@ -24,3 +34,14 @@
     text-indent: 1050px
 }
 
+.animal-title {
+    font-family: page-title-font;
+    color: black;
+    text-align: center;
+}
+
+.animal-sub-title {
+    font-family: page-sub-title-font;
+    color: black;
+    text-align: center;
+}
