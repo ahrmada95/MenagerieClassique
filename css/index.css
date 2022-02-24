@@ -3,6 +3,11 @@
     src: url(Quicksand-Regular.ttf);
 }
 
+@font-face {
+    font-family: sub-title-font;
+    src: url(Quicksand-Light.ttf)
+}
+
 
 .home-title {
     font-family: title-font;
@@ -10,5 +15,12 @@
     text-align: left;
     text-indent: 1000px;
     /*background-color: black;*/
+}
+
+.home-sub-title {
+    font-family: sub-title-font;
+    color: black;
+    text-align: left;
+    text-indent: 1050px
 }
 
