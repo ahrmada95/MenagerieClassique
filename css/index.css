@@ -1,0 +1,14 @@
+@font-face {
+    font-family: title-font;
+    src: url(Quicksand-Regular.ttf);
+}
+
+
+.home-title {
+    font-family: title-font;
+    color: black;
+    text-align: left;
+    text-indent: 1000px;
+    /*background-color: black;*/
+}
+
