@@ -9,39 +9,36 @@
 }
 
 @font-face {
-    font-family: page-title-font;
+    font-family: option-font;
     src: url(Lato-Light.ttf)
 }
-
-@font-face {
-    font-family: page-sub-title-font;
-    src: url(Lato-ThinItalic.ttf)
-}
-
 
 .home-title {
     font-family: title-font;
     color: black;
-    text-align: left;
-    text-indent: 1000px;
+    text-align: center;
+    margin: auto;
     /*background-color: black;*/
 }
 
 .home-sub-title {
     font-family: sub-title-font;
     color: black;
+    text-align: center;
+    margin: auto;
+}
+
+.home-selection {
+    font-family: option-font;
+    color: black;
     text-align: left;
-    text-indent: 1050px
+    text-indent: 860px;
 }
 
-.animal-title {
-    font-family: page-title-font;
-    color: black;
-    text-align: center;
-}
-
-.animal-sub-title {
-    font-family: page-sub-title-font;
-    color: black;
-    text-align: center;
+.animal-splash {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 600px;
 }
